@@ -65,12 +65,12 @@ void loop() {
     counter = 0;
   }
 
-  if(toggleState==LOW) {
-    isToggled=!isToggled;
+  if(toggleState==LOW) {//checks if the toggle button is clicked
+    isToggled=!isToggled; //changes the state of whether or not it is toggled
     delay(250);
   }
   if(isToggled) {
-    if(millis()-lastToggle>500) {
+    if(millis()-lastToggle>500) {//delay for 500ms whilst allowing the rest of the code to run
       counter++;
       if(counter==7){
         counter = 1; //just skips over the part of the phase where the light is off
