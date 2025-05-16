@@ -1,0 +1,8 @@
+This is the very first arduino project I've ever done.
+
+Followed a tutorial by DB Tech linked below, and added a little bit more.
+https://www.youtube.com/watch?v=pPey4ntwRZI
+
+I added the ability to turn the light white and teal, and then added an additional button which would cause the lights to cycle automatically between all of the colours until pressed again.
+
+This project taught me the basics of how to use arduino's software and do basic circuity with the arduino uno
