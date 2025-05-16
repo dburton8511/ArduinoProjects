@@ -72,7 +72,7 @@ void loop() {
   if(isToggled) {
     if(millis()-lastToggle>500) {//delay for 500ms whilst allowing the rest of the code to run
       counter++;
-      if(counter==7){
+      if(counter>=7){
         counter = 1; //just skips over the part of the phase where the light is off
       }
       lastToggle=millis();
