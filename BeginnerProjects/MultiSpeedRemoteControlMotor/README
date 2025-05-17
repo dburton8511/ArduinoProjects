@@ -1,0 +1,11 @@
+This project was just something I made on my own without directly following any guides.
+
+Pretty much, after importing the IRremote library version 4.0.0 and importing this code onto your arduino, it'll read a signal sent by your IR remote to the IR reader!
+The current code is set up so that the power button will cause the motor to start and stop spinning, the 1, 2, and 3 buttons will change the motor's speed to one of three presets, and the up and down buttons will adjust the speed of the motor up and down.
+
+I added a diode to the motor to reduce electronic noise as the ir sensor would often be messed up when the motor was running near it and misread signals.
+I used a transistor and a battery instead of just running off of the 5v connector on the arduino because the 5v connector didn't give enough voltage to the motor for it to run properly.
+This is still an occasional issue, but it still works most of the time.
+
+A link to a video of the circuit running is below, although be warned that the compression from being uloaded to google drive and youtube makes it difficult to tell how fast the motor is really spinning.
+https://youtube.com/shorts/JmBGAYFLq9g
