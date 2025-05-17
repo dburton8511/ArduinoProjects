@@ -1,0 +1,16 @@
+This was my first custom project being made without any tutorial.
+
+It measures the temperature and humidity of the air and displays this information on a Liquid Crystal Display.
+You can use a button to change the display from showing the temperature in celcius to farenheit and vice versa by holding it down for ~1 second.
+The potentiometer is used to adjust the contrast between the screen's background and its text - somewhere in the middle is best for me.
+
+Materials Used:
+-1x Arduino UNO R3
+-1x LCD1602 Module
+-1x DHT11 Temperature & Humidity Module
+-1x Button
+-1x Potentiometer
+-2x 5k1 Resistor (can be substituted for a single 10k resistor)
+-A lot of breadboard jumper wires
+-1x Power supply  module & 9v battery (can be ignored if powering arduino with a computer)
+
