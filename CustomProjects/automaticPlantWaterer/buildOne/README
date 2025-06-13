@@ -1,0 +1,4 @@
+This is the first build that uses LEDs to indicate how moist the soil is to the user. 
+It is fully functional but requires a 12v power supply, dc motor pump, resistive soil moisture sensor, breadboard and stuff, and an arduino
+
+Once the soil moisture detects a sufficiently low moisture, it will turn on the pump which will add water to the plant.
